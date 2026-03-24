@@ -15,7 +15,7 @@ public class FatController {
 			return 1;
 		}
 		
-		//Inserindo acima do topo, topo * i  (i inicialmente é igual valor - 1)
+		//Inserindo acima do topo, topo * i  (i inicialmente é igual valor)
 		for(int i = valor ; i > 1; i--) {
 			try {
 				p.push(p.top() * i);
